@@ -1,5 +1,5 @@
 # Database
-This Database is a way to handle clean visualization of shot and asset creation.
+This is a front-end model for a Database is a way to handle clean visualization of shot and asset creation.
 
 It contains the shots, sequences, and asset list of a fake short, organized in an easily concepted way. Right-clicking
 on a shot or asset opens a context menu that lets the user add a shot, sequence, new asset version, or new asset. The database is a QModel of an Asset folder for a short film. 
