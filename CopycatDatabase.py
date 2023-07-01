@@ -7,7 +7,7 @@ from PyQt6.QtGui import QFont, QColor, QStandardItemModel
 class CopycatDatabase(QMainWindow):
     def __init__(self, data):
         super().__init__()
-        self.setWindowTitle("CopyCatTessa")
+        self.setWindowTitle("CopyCat")
         self.browsebutton = QWidget.QPushButton()
         self.browsebutton.clicked.connect(self._openBrowser)
 
